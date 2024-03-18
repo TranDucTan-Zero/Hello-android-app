@@ -1,0 +1,48 @@
+<!-- layout_edit_product.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editTextProductID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập id sản phẩm"
+        android:layout_margin="30dp"/>
+    <EditText
+        android:id="@+id/editTextProductName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tên sản phẩm"
+        android:layout_margin="30dp"/>
+
+    <EditText
+        android:id="@+id/editTextProductImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập URL hình ảnh sản phẩm"
+        android:layout_margin="30dp"/>
+
+    <EditText
+        android:id="@+id/editTextProductPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập giá sản phẩm"
+        android:layout_margin="30dp"/>
+
+    <Button
+        android:id="@+id/buttonUpdateProduct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cập nhật sản phẩm"
+        android:layout_margin="30dp"
+        android:backgroundTint="#FE6003"/>
+    <Button
+        android:id="@+id/buttonExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thoát"
+        android:layout_margin="30dp"
+        android:backgroundTint="#FE6003"/>
+</LinearLayout>
